@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>368</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>368</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Colorator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../main.qrc">
+    <normaloff>:/assets/logo.svg</normaloff>:/assets/logo.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #0F1021;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>368</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>368</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="header">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>96</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>96</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #262B57;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>19</y>
+      <width>263</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>263</width>
+      <height>57</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>263</width>
+      <height>57</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: #919EFD;
+font: Inter;
+font-size: 47px;</string>
+    </property>
+    <property name="text">
+     <string>Latest color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_settings">
+    <property name="geometry">
+     <rect>
+      <x>699</x>
+      <y>25</y>
+      <width>46</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>46</width>
+      <height>46</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>46</width>
+      <height>46</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    QPushButton {
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    QPushButton::hover {
+        background: transparent;
+    }
+    
+    QPushButton::pressed {
+        background: transparent;
+    }
+    
+    QPushButton::focus {
+        outline: none;
+    }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../main.qrc">
+      <normaloff>:/assets/setting.svg</normaloff>:/assets/setting.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>46</width>
+      <height>46</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_color1">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>151</y>
+      <width>162</width>
+      <height>162</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #5D62C0 ;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_color2">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>151</y>
+      <width>162</width>
+      <height>162</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #5D62C0 ;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_color3">
+    <property name="geometry">
+     <rect>
+      <x>583</x>
+      <y>151</y>
+      <width>162</width>
+      <height>162</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>162</width>
+      <height>162</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #5D62C0 ;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../main.qrc"/>
+ </resources>
+ <connections/>
+</ui>
